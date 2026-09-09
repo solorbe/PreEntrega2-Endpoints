@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+[
+  {
+    "id": 1,
+    "name": "dermatologia",
+    "description": "descripcion de dermatologia",
+    "duration": 15,
+    "price": 55000,
+    "category": "consulta",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "clinica medica",
+    "description": "descripcion de clinica medica",
+    "duration": 1530,
+    "price": 65000,
+    "category": "consulta",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "odontologia",
+    "description": "descripcion odontologia",
+    "duration": 1530,
+    "price": 65000,
+    "category": "consulta",
+    "available": true
+  }
+]
+=======
+[]
+>>>>>>> f82b251e24be922c00f58e8c4d358cd78da557a5
