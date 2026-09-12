@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import fs from 'fs/promises';
-=======
-import fs from 'node:fs/promises';
->>>>>>> f82b251e24be922c00f58e8c4d358cd78da557a5
 
 const filePath = './src/data/services.json';
 
@@ -41,7 +37,7 @@ export const getServiceById = async (id) => {
 export const addService = async (serviceData) => {
   const { name, description, duration, price, category, available } = serviceData;
 
-  if (!name || !description || !duration || !price || !category) {
+  if (!name || !description || !duration || !price || !category || available === undefined) {
     return {
       status: "error",
       message: "Faltan campos obligatorios"
@@ -122,7 +118,6 @@ export const deleteService = async (id) => {
   };
 };
 
-<<<<<<< HEAD
 export class ServiceManager  {
   async getServices() {
     return await getServices();
@@ -143,12 +138,4 @@ export class ServiceManager  {
   async deleteService(id) {
     return await deleteService(id);
   }
-=======
-export const ServiceManager = {
-  getServices,
-  getServiceById,
-  addService,
-  updateService,
-  deleteService
->>>>>>> f82b251e24be922c00f58e8c4d358cd78da557a5
 };

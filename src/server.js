@@ -15,7 +15,7 @@
 
 import dotenv from "dotenv";
 import app from "./app.js";
-import { config } from "./config/config.js";
+import { config } from "./config/env.config.js";
 
 dotenv.config();
 
